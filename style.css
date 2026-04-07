@@ -29,9 +29,12 @@ header {
   justify-content: center;
   list-style: none;
   gap: 24px;
+}
+.text{
+  display: flex;
+  gap:24px;
   padding-top: 21px;
 }
-
 .nav_bar li a {
   text-decoration: none;
   font-family: var(--font-family);
@@ -39,4 +42,20 @@ header {
   font-size: 16px;
   line-height: 100%;
   color: #fff;
+}
+#logo{
+  padding-right: 287px;
+  padding-top: 15px;
+}
+#li3{
+  padding-right: 37px;
+}
+.minimal-form{
+  padding-top: 18px;
+}
+.accaount a img{
+  padding-right: 5px;
+}
+.accaount{
+  padding-top: 15px;
 }
