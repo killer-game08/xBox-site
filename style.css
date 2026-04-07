@@ -133,6 +133,21 @@ header {
   cursor: pointer;
   border: none;
 }
+.btnn{
+  display: inline-block;
+  padding: 18px 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
 
 .btn-primary {
   background-color: #7ed321;
@@ -142,4 +157,23 @@ header {
 .btn-secondary {
   background-color: #7ed321;
   color: #ffffff;
+}
+.order h1{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 36px;
+color: #435766;
+text-align: center;
+padding-top: 99px;
+}
+.order-buttons{
+  display: flex;
+  justify-content: center;
+  padding-top: 208px;
+  gap:14px;
+}
+.btn-desaible {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  color: #ffffff;
+  
 }
