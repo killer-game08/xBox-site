@@ -267,9 +267,11 @@ color: #435766;
   display: flex;
   justify-content: center;
   padding-top: 80px;
-  gap: 14px
+  gap: 14px;
+  padding-bottom: 109px;
 }
 /* ----- Стили ФУТЕРА (основаны на вашем Footer.png) ----- */
+
 .site-footer {
   background-color: #151515; /* Почти черный, как на скриншоте */
   padding: 48px 0 30px;
